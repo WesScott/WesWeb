@@ -1,0 +1,95 @@
+.topbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 18%;
+  min-height: 125px;
+  background: #000080;
+  opacity: 100;
+}
+
+.topbar:hover{
+  opacity: 1.0;
+}
+
+.maincontent{
+  position: absolute;
+  top: 150px;
+  margin-left: 2em;
+  margin-right: 4em;
+  text-align: left;
+}
+
+.footer{
+  font-size: 14px;
+  color:gray;
+  text-align:center;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+}
+
+#cattags{
+  display: inline-block;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 25px;
+}
+
+.catbutton{
+  background-color: #CCCCC9;
+  border: 1px solid #003366;
+  font-size: 12px;
+  display: inline-block;
+  color: #003366;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+body{
+  background: #DFDFDF;
+}
+
+p{
+  margin-top: -10px;
+  margin-bottom: 30px;
+}
+
+p:link{
+  color: #6699CC;
+}
+
+h1{
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-size: 36px;
+  color: white;
+  text-align: left;
+  display: inline;
+  padding-left: 30px;
+}
+
+h2{
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-size: 20px;
+  text-align: right;
+  padding-right: 15px;
+  color: #6699CC;
+  display: inline;
+}
+
+h3{
+  line-height: 0px;
+  font-size: 16px;
+  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+  font-style: italic;
+  color: #003366;
+  text-align: left;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+a:link, a:visited, a:hover, a:active{
+  color: white;
+  text-decoration: none;
+}
