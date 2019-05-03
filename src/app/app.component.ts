@@ -13,10 +13,6 @@ export class AppComponent {
   about = false;
   projects = false;
 
-  showToastr() {
-    this.toastr.warning('This site is under construction.', 'Site Incomplete', { progressBar: true});
-  }
-
   toHome() {
     this.home = true;
     this.about = false;
