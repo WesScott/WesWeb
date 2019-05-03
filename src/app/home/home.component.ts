@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
   }
 
   showToastr() {
-    this.toastr.warning('This site is under construction.');
+    this.toastr.warning('This site is under construction.', 'Site Incomplete', { progressBar: true});
   }
 
 }

@@ -14,7 +14,7 @@ export class AppComponent {
   projects = false;
 
   showToastr() {
-    this.toastr.warning('This site is under construction.');
+    this.toastr.warning('This site is under construction.', 'Site Incomplete', { progressBar: true});
   }
 
   toHome() {
