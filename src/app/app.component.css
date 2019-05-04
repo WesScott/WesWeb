@@ -2,7 +2,7 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 12.5vh;
+  width: 12.5vw;
   min-width: 100px;
   height: 100%;
   background: #000080;
@@ -19,4 +19,5 @@ h2{
 h2:link, h2:visited, h2:hover, h2:active{
   color: white;
   text-decoration: none;
+  cursor: pointer;
 }

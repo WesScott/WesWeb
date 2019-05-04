@@ -1,11 +1,6 @@
-.sidebar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 12.5%;
-  min-width: 100px;
-  height: 100%;
-  background: #000080;
+.homeContainer{
+  position: center;
+  padding-top: 25px;
 }
 
 .footer{
@@ -17,25 +12,11 @@
   padding-top: 10px;
 }
 
-html{
-  background: #DFDFDF;
-  width: 100vw;
-  height: 100vh;
-}
-
 h1{
   font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
   font-size: 36px;
   color: #000080;
   text-align: center;
-}
-
-h2{
-  font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
-  font-size: 20px;
-  text-align: left;
-  padding-left: 5px;
-  color: #6699CC;
 }
 
 h3{
@@ -45,9 +26,4 @@ h3{
   color: #003366;
   text-align: center;
   padding-bottom: 15px;
-}
-
-a:link, a:visited, a:hover, a:active{
-  color: white;
-  text-decoration: none;
 }

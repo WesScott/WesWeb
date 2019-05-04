@@ -1,25 +1,10 @@
 @charset "utf-8";
 
-.topbar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 18%;
-  min-height: 125px;
-  background: #000080;
-  opacity: 0.8;
-}
-
-.topbar:hover{
-  opacity: 1.0;
-}
-
 .maincontent{
   position: absolute;
-  top: 150px;
-  margin-left: 2em;
-  margin-right: 4em;
+  top: 50px;
+  width: 60vw;
+  margin-left: 12em;
   text-align: left;
 }
 
@@ -30,10 +15,6 @@
   bottom: 0;
   width: 100%;
   padding-top: 10px;
-}
-
-body{
-  background: #DFDFDF;
 }
 
 p{
@@ -48,7 +29,7 @@ p:link{
 h1{
   font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
   font-size: 36px;
-  color: white;
+  color: #6699CC;
   text-align: left;
   display: inline;
   padding-left: 30px;
@@ -75,6 +56,6 @@ h3{
 }
 
 a:link, a:visited, a:hover, a:active{
-  color: white;
+  color: #6699CC;
   text-decoration: none;
 }

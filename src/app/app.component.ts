@@ -19,7 +19,6 @@ export class AppComponent {
     this.projects = false;
   }
 
-
   toAbout() {
     this.home = false;
     this.about = true;
