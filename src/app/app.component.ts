@@ -9,14 +9,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 })
 export class AppComponent {
   private toastr: ToastrService;
-  private _opened: boolean = false;
+  public _opened: boolean = false;
  
   title = 'WesWeb';
   home = true;
   about = false;
   projects = false;
 
-  private _toggleSidebar() {
+  public _toggleSidebar() {
     this._opened = !this._opened;
   }	
 	  
