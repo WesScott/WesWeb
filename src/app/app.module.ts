@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ToastrModule } from 'ngx-toastr';
+import { SidebarModule } from 'ng-sidebar';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { ToastrModule } from 'ngx-toastr';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ToastrModule.forRoot()
+    ToastrModule.forRoot(),
+	SidebarModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

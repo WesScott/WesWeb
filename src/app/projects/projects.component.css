@@ -1,23 +1,10 @@
-.topbar{
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 18%;
-  min-height: 125px;
-  background: #000080;
-  opacity: 100;
-}
-
-.topbar:hover{
-  opacity: 1.0;
-}
+@charset "utf-8";
 
 .maincontent{
   position: absolute;
-  top: 150px;
-  margin-left: 2em;
-  margin-right: 4em;
+  top: 50px;
+  width: 60vw;
+  margin-left: 12em;
   text-align: left;
 }
 
@@ -87,9 +74,4 @@ h3{
   text-align: left;
   padding-bottom: 15px;
   text-decoration: underline;
-}
-
-a:link, a:visited, a:hover, a:active{
-  color: white;
-  text-decoration: none;
 }

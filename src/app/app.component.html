@@ -1,10 +1,19 @@
 <!--The content below is only a placeholder and can be replaced.-->
+ <div ng-sidebar-content>
+   <button (click)="_toggleSidebar()">Open Menu</button>
+ </div>
+<ng-sidebar-container>
 
-<div class="sidebar">
+<ng-sidebar [(opened)]="_opened">
+<div class="menu">
+  <button (click)="_toggleSidebar()">Close</button>
   <h2 routerLink="/home" (click)="toHome()">Home</h2>
   <h2 routerLink="/projects" (click)="toProject()">Projects</h2>
   <h2 routerLink="/about" (click)="toAbout()">About</h2>
 </div>
+</ng-sidebar>
+	
+</ng-sidebar-container>
 
 <div *ngIf="home == true">
   <app-home></app-home>
